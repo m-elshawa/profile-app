@@ -6,6 +6,8 @@ import profile from '../../Assets/Images/profile.png'
 function Header() {
   return (
     <div className='header'>
+      <h1>Hi, I'm Mizo</h1>
+      <h2>I'm a Fullstack Developer</h2>
       <img className='profile' src={profile} alt="Mohamed El Shawa" />
         <button>Home</button>
         <button>Profile</button>

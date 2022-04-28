@@ -1,5 +1,9 @@
 .header {
-    background-color: blueviolet;
+    background-color: #2a52be;
+    /* position: relative; */
+    align-items: center;
+    overflow: hidden;
+  
 }
 
 .profile {
