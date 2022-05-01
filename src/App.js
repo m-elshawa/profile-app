@@ -1,30 +1,27 @@
 // import logo from './logo.svg';
 import './App.css';
-import Header from '../src/Components/Header/Header.js';
 import Navbar from './Components/Navbar/Navbar';
+import Header from '../src/Components/Header/Header.js';
+import AboutMe from './Components/AboutMe/AboutMe';
+import Skills from './Components/Skills/Skills';
+import Portofolio from './Components/Portofolio/Portofolio';
+import Contact from './Components/Contact/Contact';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <header className="App-header">
+      <main className="main">
         <Header />
-        <Header />
-        <Header />
-        <Header />
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Create components and start my app 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <AboutMe />
+        <Skills />
+        <Portofolio />
+        
+        
+        <Contact />
+       
+      </main>
     </div>
   );
 }
