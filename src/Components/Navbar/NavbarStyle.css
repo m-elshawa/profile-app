@@ -1,7 +1,14 @@
-.navbar {
-    background-color: #191970;
-    overflow: hidden;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px -7px;
     position: fixed;
-    top: 0%;
+    top:0;
     width: 100%;
-   }
+    z-index: 1000;
+    background: #191970;
+  }
+
+h3 {
+    color: antiquewhite;
+}
